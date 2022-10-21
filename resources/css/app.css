@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+    
+div.formulaire {
+    /* background-color: #000000; */
+    height:95vh;
+    justify-content:'center';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    };
+
+    h2 {
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        color: #000000;
+        background-color: black;
+        font-weight: 50px;
+        
+    };
+
+
+
+
+    

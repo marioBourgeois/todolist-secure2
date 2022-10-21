@@ -18,7 +18,9 @@ use App\Http\Controllers\TacheApiController;
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
- Route::apiResource('tache', TacheApiController::class);
+
+Route::apiResource('tache', TacheApiController::class);
+/*
 Route::middleware('auth:api') ->group(function() {
    
-});
+});*/
